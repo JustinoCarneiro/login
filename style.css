@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    width: 1366px;
+    height: 610px;
+    background: linear-gradient(135deg, rgba(55, 2, 2, 0.94) 0%, rgba(231, 0, 0, 0.00) 100%), #153995;
+}
+
+body{
+    position: absolute;
+    margin: 0;
+    background-color: white;
+    width: 1220px;
+    height: 462px;
+    top: 74px;
+    left: 73px;
+    flex-shrink: 0; 
+    border-radius: 50px;
+    display: flex;
+    gap: 300px;
+}
+
+#linha {
+    height: 362px;
+    border-right: 1px solid black;
+    position: absolute;
+    left: 610px;
+    top: 63px;
+}
+
+img {
+    width: 437px;
+    position: absolute;
+    right: 78px;
+    bottom: 0;
+}
+
+#esquerda {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    left: 119px;
+}
+
+#logo {
+    position: absolute;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+    letter-spacing: 6.75px; 
+    margin: 0;
+    top: 35px;
+    align-self: auto;
+}
+
+h1 {
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0; 
+    padding: 0;
+    position: absolute;
+    top: 96px;
+}
+
+p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+    margin: 0;
+}
+
+button {
+    background-color: #153995;
+    margin: 0;
+    border: none;
+    width: 293px;
+    height: 27px; 
+    color: white;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    top: 325px;
+}
+
+button:hover {
+    background-color: #2054d6;  
+}
+
+.campos {
+    border-radius: 5px;
+    background-color: #D9D9D9; 
+    width: 288px;
+    height: 27px;
+    padding: 0;
+    padding-left: 5px;
+    border: none;
+}
+
+#email {
+    position: absolute;
+    top: 162px;
+}
+
+#c_email {
+    position: absolute;
+    top: 185px;
+}
+
+#senha {
+    position: absolute;
+    top: 237px;
+}
+
+#c_senha {
+    position: absolute;
+    top: 260px;
+}
+
+#observacao {
+    position: absolute;
+    top: 397px;
+    color: #313131;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: none;
+}
